@@ -7,5 +7,5 @@ The Dockerfile present in the docs directory is a Docker file used to create an 
 
 The `parcial_report` directory includes the scripts written for the partial project report. It complements the `pipeline_deseq2` file, which performs differential expression analysis between groups, constructs Venn diagrams and heatmaps for the DESeq2 program. The same applies to the `pipeline_edger` file, but for the edgeR program. The `pipeline_fpkm` file performs variance analyses between FPKM values of genes and their samples related to renal carcinoma data.
 
-The remaining directories (005_preqc to 205_gwena) contain the necessary scripts for sample pre-processing, differential expression analysis, network analysis, and functional annotation. For a better understanding, you can access the tutorial at https://rpubs.com/jpietro/vignette_pipeline.
+The remaining directories (`005_preqc` to `205_gwena`) contain the necessary scripts for sample pre-processing, differential expression analysis, network analysis, and functional annotation. For a better understanding, you can access the tutorial at https://rpubs.com/jpietro/vignette_pipeline.
 
