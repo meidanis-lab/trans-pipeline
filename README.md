@@ -1,12 +1,11 @@
 # trans-pipeline
 Pipeline for gene expression profile analisis of transcripts
 
-Esse repositório visa compartilhar os códigos desenvolidos para análise de expressão diferencial de transcritos a partir de matrizez de contadores. 
-Os dados de entrada, como os counts, metados e valores de fpkm, para os scripts podem ser baixados pelo repositório Zenodo (https://doi.org/10.5281/zenodo.7586587). 
+This repository aims to share the codes developed for the analysis of differential expression of transcripts using data from RNA-seq. The input data, such as counts, metadata, and fpkm values, can be downloaded from the Zenodo repository (https://doi.org/10.5281/zenodo.7586587).
 
-O arquivo Dockerfile é um arquivo do Docker para criar uma imagem no RStudio com todos os pacotes necessários para rodar os scripts. 
+The Dockerfile present in the docs directory is a Docker file used to create an RStudio image with all the necessary packages to run the scripts.
 
-O arquivo pipeline_deseq2 realiza análise de expressão diferencial entre grupos, constrói Diagrama de Venn e heatmap, para o programa DESeq2. 
-O mesmo vale para o arquivo pipeline_edger, porém, para o programa edgeR. 
+The `parcial_report` directory includes the scripts written for the partial project report. It complements the `pipeline_deseq2` file, which performs differential expression analysis between groups, constructs Venn diagrams and heatmaps for the DESeq2 program. The same applies to the `pipeline_edger` file, but for the edgeR program. The `pipeline_fpkm` file performs variance analyses between FPKM values of genes and their samples related to renal carcinoma data.
 
-O arquivo pipeline_fpkm faz análises de variância entre os valores de FPKM de genes e suas amostras. 
+The remaining directories (005_preqc to 205_gwena) contain the necessary scripts for sample pre-processing, differential expression analysis, network analysis, and functional annotation. For a better understanding, you can access the tutorial at https://rpubs.com/jpietro/vignette_pipeline.
+
