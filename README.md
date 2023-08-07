@@ -1,6 +1,6 @@
 # Pipeline for gene expression profile analisis of transcripts
 
-This repository aims to share the codes developed for the analysis of differential expression of transcripts using data from RNA-seq. The input data, such as counts, metadata, and fpkm values, can be downloaded from the Zenodo repository (https://doi.org/10.5281/zenodo.7586587).
+This repository aims to share the codes developed for the analysis of differential expression of transcripts using data from RNA-seq. The input data, such as counts, metadata, and fpkm values, can be downloaded from the Zenodo repository (https://doi.org/10.5281/zenodo.8216030).
 
 The `Dockerfile` presented in the `docs` directory is a Docker file used to create an RStudio image with all the necessary packages to run the scripts.
 
