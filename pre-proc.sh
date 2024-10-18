@@ -6,8 +6,8 @@ echo $SAMPLE
 
 #005_preqc
 for s in $SAMPLE; do
-	make -C 005_preqc ${s}_1.fastq.html
-	make -C 005_preqc ${s}_2.fastq.html
+	make -C 005_preqc ${s}_1_fastqc.html
+	make -C 005_preqc ${s}_2_fastqc.html
 done
 
 #010_trim
