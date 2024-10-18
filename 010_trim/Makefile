@@ -1,4 +1,4 @@
-TRIMMO :=  docker run --rm -u $(id -u):$(id -g) -v $(PWD):/trans -w /trans/010_trim \ chrishah/trimmomatic-docker trimmomatic
+TRIMMO :=  docker run --rm -u $(id -u):$(id -g) -v $(PWD):/trans -w /trans/010_trim chrishah/trimmomatic-docker trimmomatic
 
 %_1.paired.fastq.gz: ../000_input/fastq/%_1.fastq.gz ../000_input/fastq/%_2.fastq.gz
 	$(TRIMMO) PE $^ \
