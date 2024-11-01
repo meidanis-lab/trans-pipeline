@@ -32,7 +32,7 @@ for s in $SAMPLE; do
 done
 
 ##Deleting .sam files
-rm -rf 020_map/*.sam
+##rm -rf 020_map/*.sam
 
 #030_assemble
 for s in $SAMPLE; do
